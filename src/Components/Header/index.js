@@ -1,8 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView } from 'react-native';
-import Logo from "../teste/src/assets/instagram.png";
+import Logo from "../../assets/instagram-logo.png";
 import { Entypo, FontAwesome } from '@expo/vector-icons';
-import header from "./src/components/Header";
 
  export default function Header(){
     return(

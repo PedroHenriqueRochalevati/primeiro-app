@@ -11,30 +11,15 @@ export default function Stories() {
       horizontal
       showsHorizontalScrollIndicator={false}
     >
-      <TouchableOpacity>
-        <Image source={Foto1} style={{ width: 100, height: 100, borderRadius: 50 }} />
-      </TouchableOpacity>
-      <TouchableOpacity>
-        <Image source={Foto2} style={{ width: 100, height: 100, borderRadius: 50 }} />
-      </TouchableOpacity>
-      <TouchableOpacity>
-        <Image source={Foto1} style={{ width: 100, height: 100, borderRadius: 50 }} />
-      </TouchableOpacity>
-      <Image source={Foto2} style={{ width: 100, height: 100, borderRadius: 50 }} />
-      <TouchableOpacity>
-        <Image source={Foto1} style={{ width: 100, height: 100, borderRadius: 50 }} />
-      </TouchableOpacity>
-      <TouchableOpacity>
-        <Image source={Foto2} style={{ width: 100, height: 100, borderRadius: 50 }} />
-      </TouchableOpacity>
-      <TouchableOpacity>
-        <Image source={Foto1} style={{ width: 100, height: 100, borderRadius: 50 }} />
-      </TouchableOpacity>
-      <TouchableOpacity>
-        <Image source={Foto2} style={{ width: 100, height: 100, borderRadius: 50 }} />
-      </TouchableOpacity>
+      <story Image = {Foto1} />
+      <story Image = {Foto1} />
+      <story Image = {Foto1} />
+      <story Image = {Foto1} />
+      <story Image = {Foto1} />
+      <story Image = {Foto1} />
+      <story Image = {Foto1} />
     </ScrollView>
-  )
+  );
 }
 const styles = StyleSheet.create({
   header: {

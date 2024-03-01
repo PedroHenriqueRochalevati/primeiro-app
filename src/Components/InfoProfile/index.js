@@ -1,8 +1,8 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native';
 
-export default function infoProfile({image, publi, followers, following, descricao}){
+export default function infoProfile({image, publi, followers, following, descricao, icones}){
     return (
-        <View>
+    <View>
         <Image source={image} style={styles.story}/>
         <View>
             <Text style={styles.publi}>{publi}</Text>
@@ -14,7 +14,8 @@ export default function infoProfile({image, publi, followers, following, descric
             <Text style={styles.nome}>Pedro Levati</Text>
             <Text style={styles.descricao}>{descricao}</Text>
         </View>
-        </View>
+        
+    </View>
         
     );
 }

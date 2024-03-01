@@ -1,6 +1,8 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView } from 'react-native';
 import InfoProfile from './src/components/InfoProfile';
 import PessoaProfile from "./src/assets/Foto1.jpg";
+import MyPosts from'./src/components/MyPosts';
+
 export default function App() {
   return (
     <View style={styles.container}>
@@ -10,6 +12,7 @@ export default function App() {
       followers={420} 
       following={300} 
       descricao={"Nutrição"} />
+      <MyPosts/>
     </View>
   );
 }

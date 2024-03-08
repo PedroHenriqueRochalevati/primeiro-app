@@ -1,8 +1,12 @@
-
-import { StyleSheet, View, Image, TouchableOpacity, ScrollView } from 'react-native';
+import {
+  StyleSheet,
+  View,
+  Image,
+  TouchableOpacity,
+  ScrollView,
+} from "react-native";
 import Foto1 from "../../assets/Foto1.webp";
-import Foto2 from "../../assets/Foto1.jpg";
-
+import Story from "../Story/Index";
 
 export default function Stories() {
   return (
@@ -11,24 +15,24 @@ export default function Stories() {
       horizontal
       showsHorizontalScrollIndicator={false}
     >
-      <story Image = {Foto1} />
-      <story Image = {Foto1} />
-      <story Image = {Foto1} />
-      <story Image = {Foto1} />
-      <story Image = {Foto1} />
-      <story Image = {Foto1} />
-      <story Image = {Foto1} />
+      <Story image={Foto1} />
+      <Story image={Foto1} />
+      <Story image={Foto1} />
+      <Story image={Foto1} />
+      <Story image={Foto1} />
+      <Story image={Foto1} />
+      <Story image={Foto1} />
     </ScrollView>
   );
 }
 const styles = StyleSheet.create({
   header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    justifyContent: "space-between",
   },
   edit: {
-    flexDirection: 'row',
+    flexDirection: "row",
     padding: 10,
     gap: 5,
-  }
+  },
 });
